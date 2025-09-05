@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "HARSHAK",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 77.4, "left": -29.4, "attrs": {} },
+    {
+      "type": "wokwi-serial-port",
+      "id": "serial",
+      "top": 0,
+      "left": 0,
+      "attrs": { "baud": "9600" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -46.5,
+      "left": 63.1,
+      "attrs": { "distance": "400" }
+    }
+  ],
+  "connections": [
+    [ "uno:1", "serial:RX", "", [] ],
+    [ "uno:0", "serial:TX", "", [] ],
+    [ "ultrasonic1:TRIG", "uno:8", "blue", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "uno:7", "green", [ "v19.2", "h8.8" ] ],
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "v144", "h-48", "v48", "h38.4" ] ],
+    [ "ultrasonic1:GND", "uno:GND.1", "black", [ "v19.2", "h-78" ] ]
+  ],
+  "dependencies": {}
+}
