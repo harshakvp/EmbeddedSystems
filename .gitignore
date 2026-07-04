@@ -1,0 +1,53 @@
+# =====================================================
+# STM32CubeIDE .gitignore
+# =====================================================
+
+# Custom folders
+Downloads/
+Instructor/
+
+# Build output folders
+Debug/
+Release/
+
+# Build artifacts
+*.o
+*.d
+*.su
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.srec
+*.obj
+*.dep
+
+# Temporary and log files
+*.tmp
+*.bak
+*.log
+*~
+*.swp
+*.swo
+
+# Eclipse / STM32CubeIDE metadata
+.metadata/
+.cache/
+
+# Workspace-specific settings
+.settings/language.settings.xml
+.settings/stm32cubeide.project.prefs
+
+# CMake files (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code settings (optional)
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
