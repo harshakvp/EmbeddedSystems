@@ -1,4 +1,4 @@
-# Embedded Systems Learning Journey
+# Embedded Systems: My Compiler Error Collection
 
 [![Stars](https://img.shields.io/github/stars/harshakvp/EmbeddedSystems?style=flat-square&label=stars)](https://github.com/harshakvp/EmbeddedSystems/stargazers)
 [![Forks](https://img.shields.io/github/forks/harshakvp/EmbeddedSystems?style=flat-square&label=forks)](https://github.com/harshakvp/EmbeddedSystems/forks)
@@ -6,39 +6,20 @@
 [![Contributors](https://img.shields.io/github/contributors/harshakvp/EmbeddedSystems?style=flat-square&label=contributors)](https://github.com/harshakvp/EmbeddedSystems/graphs/contributors)
 ![Last Commit](https://img.shields.io/github/last-commit/harshakvp/EmbeddedSystems?style=flat-square&label=last%20commit)
 ![Repo Size](https://img.shields.io/github/repo-size/harshakvp/EmbeddedSystems?style=flat-square&label=repo%20size)
-![Progress](https://img.shields.io/badge/status-learning%20never%20ends-blue?style=flat-square)
+![Status](https://img.shields.io/badge/status-learning%20in%20progress-blue?style=flat-square)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=harshakvp.EmbeddedSystems)
 
-Welcome to my embedded systems rabbit hole.
+<p align="center">
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="350">
+</p>
 
-This repository is where I dump everything I learn while exploring Embedded Systems, one commit at a time. Think of it as my digital lab notebook, except with fewer coffee stains and more compiler errors.
+This repository is simply my **Embedded Systems progress tracker**.
 
-I'm pushing my progress here mainly to **stay accountable**, **track how far I've come**, and hopefully look back one day and laugh at the code I once thought was brilliant.
+Every time I learn something new, I push it here. It's my way of keeping myself accountable and proving to myself that I'm making progress—even if it sometimes feels like I'm just professionally moving semicolons around.
 
-If you find inconsistent coding styles, random experiments, questionable variable names, or commits at 2 AM... that's called **the learning process**.
+If you spot weird code, unfinished experiments, or commits that make no sense... congratulations, you've found a real learning repository.
 
-> **Disclaimer:** If something doesn't work, it's probably because I'm still learning. If it does work, please don't ask me why—it surprised me too.
-
----
-
-## Repository Contents
-
-- Embedded C Programming
-- ARM Cortex-M Architecture
-- STM32 Programming
-- Register-Level Programming
-- Peripheral Interfacing
-- Driver Development
-- Embedded Projects
-- Random experiments that somehow compiled
-
----
-
-## Why this repository?
-
-Because one day I'll forget how much I struggled with pointers, `volatile`, linker errors, and why a missing semicolon ruined my evening.
-
-Git remembers.
+> **Disclaimer:** The code gets better over time. Hopefully.
 
 ---
 
@@ -55,7 +36,3 @@ Vellore Institute of Technology (VIT), Vellore
 * LinkedIn: [Harshak V P](https://www.linkedin.com/in/harshakvp/)
 * Portfolio: [harshakvp.dev](https://chain-science-5eb.notion.site/HARSHAK-V-P-4f4889ae8ebf4c05a5790637c39213ba)
 * Email: [harshakvp.contact@gmail.com](mailto:harshakvp.contact@gmail.com)
-
----
-
-*"It's not a bug. It's undocumented hardware behavior."* 🙂
